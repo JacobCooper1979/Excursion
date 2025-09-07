@@ -1,19 +1,32 @@
+/*  resets the styles for the HTML page */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
 }
-
+/*  styles for the body*/
 body {
     background-color: black;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*  styles for the headings*/
 .header--main {
     font-weight: normal;
     font-size: 50px;
     color: white;
+}
+
+.header--second {
+    font-weight: 300px;
+    font-size: 42;
+    color: white;
+}
+
+.header--sub-header {
+    font-size: 21;
+    color: grey;
 }
 
 .link--cta {
